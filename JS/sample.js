@@ -98,9 +98,10 @@ for (var ele in a){
     }
 } */
 
-//functions
+/* //functions
 function fun_names(a,b){
     console.log(a+b+"Jan"+5+5)
     return a+b+"Jan"+5+5
 }
 console.log(fun_names(5,5))
+ */
