@@ -33,7 +33,7 @@ while(i<=a){
 array = [10,20]//one liner function arrow op
 array.forEach(element =>  console.log(element))//arrow op will fetch the elements
  */
-const array =["Jan",23,2,10.00,Date()]
+/* const array =["Jan",23,2,10.00,Date()]
 for(var ele in array){
     console.log(array[ele])
 }
@@ -96,4 +96,11 @@ for (var ele in a){
             console.log(val +":"+ a[ele][val])
         }
     }
+} */
+
+//functions
+function fun_names(a,b){
+    console.log(a+b+"Jan"+5+5)
+    return a+b+"Jan"+5+5
 }
+console.log(fun_names(5,5))
