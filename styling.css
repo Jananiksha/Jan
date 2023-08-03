@@ -1,0 +1,11 @@
+h2,h3,p{
+    font-size: 20px;
+    color:black;
+    position: relative;
+}
+body{
+    background-image: url(glitter.jpeg);
+    background-repeat: no-repeat;
+    background-position:0.5vh;
+    background-size: cover;
+}
