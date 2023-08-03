@@ -9,3 +9,48 @@ body{
     background-position:0.5vh;
     background-size: cover;
 }
+
+.outerbox{
+    min-height:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    text-transform:uppercase;
+    text-indent: 5px;
+    color: azure;
+
+
+
+}
+.box{
+    width: 200px;
+    height: 50px;
+    background-color:brown;
+    border: 2px solid white;
+    color: azure;
+}
+
+.container {
+    display: flex;
+}
+
+.para1{
+    background-color:azure;
+    flex:0.5
+}
+.para2{
+    background-color:azure;
+    flex:0.5
+}
+.para3{
+    background-color:azure;
+    flex:0.5
+
+}
+.para4{
+    background-color:azure;
+    flex:0.5
+
+}

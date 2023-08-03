@@ -1,12 +1,12 @@
-function myfunfor1st(){
-    document.getElementById("hello").innerHTML = "I am in my 1st year student"
+function printMessage1(){
+    document.getElementById("output").innerHTML = "9845374622"
 }
-function myfunfor2nd(){
-    document.getElementById("hello").innerHTML = "I am in my 2nd year student"
+function printMessage2(){
+    document.getElementById("output").innerHTML = "jananiksha@gmail.com"
 }
-function myfunfor3rd(){
-    document.getElementById("hello").innerHTML = "I am in my 3rd year student"
+function printMessage3(){
+    document.getElementById("output").innerHTML = "jananiksha-63623728"
 }
-function myfunforfinal(){
-    document.getElementById("hello").innerHTML = "I am in my final year student"
+function printMessage4(){
+    document.getElementById("output").innerHTML = "janani__"
 }
