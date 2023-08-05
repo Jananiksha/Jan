@@ -105,3 +105,26 @@ function fun_names(a,b){
 }
 console.log(fun_names(5,5))
  */
+
+/* a=()=> 
+    console.log("Hello world")
+a() */
+
+class AIANDDS{
+    abcd = "alphabet"
+    diff(){
+        console.log("Janani is a good girl")
+    }
+    sum(){
+        console.log("Janani")
+        console.log(this.abcd)
+        this.diff()
+    }
+    
+}
+a= new Object()
+a.name ="AI & DS"
+console.log(a)
+object1 = new AIANDDS()
+object1.sum()
+
