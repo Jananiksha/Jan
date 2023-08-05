@@ -13,41 +13,6 @@
     font-weight: 400;
     color:black;
     }
-
-    p.padTop{
-            padding-top: 20%;
-            padding-bottom: 20%;
-        }
-
-        
-        .flex-container{
-            display: flex;
-            background-color:azure;
-        }
-
-        .flex-container > div{
-            background-color: azure;
-            font-size: 30px;
-            margin: 20px;
-        }
-
-
-        .grid-container{
-            display: grid;
-            grid-template-columns: auto auto auto;
-        }
-
-        
-        
-        .grid-item{
-            background-color: rgba(255,255,255,0,0);
-            border:1px solid rgba(0,0,0,0.0);
-            padding:20px;
-            font-size: 30px;
-            text-align: center;
-
-        }
-        
     </style>
     <script src="JS/sample.js"></script>
     <script src="JS/linkforHtml.js"></script>
@@ -65,39 +30,41 @@
     <div>
         <h1>WELCOME TO MY WEBSITE</h1>
         <div>
-            <h2>
-                This is the place where i can showcase my profile
-            </h2>
+            
             
         </div>
         <h3> 
-           I am Jananiksha
+           <b>I'm Jananiksha</b>
         </h3>
-        <p>
+        <p id="output"></p>
+        
+        <button class="button" onClick="printMessage1()">Contact No</button>
+        <button class="button" onClick="printMessage2()">Mail ID</button>
+        <button class="button" onClick="printMessage3()">LinkedIn</button>
+        <button class="button" onClick="printMessage4()">Instagram</button>
+        <h4>
             Enthusiastic AI&DS student dedicated to lifelong learning and growth in the field of AI and Data Science.
-        </p>
+        </h4>
         <div>
             <p>
-                <b>My Education:</b>
-                <p>ABC School </p>
-                <p> Kumaraguru College of Technology</p>
+                <h5><b>Education:</h5></b>
+                <p style="padding-left: 5%;">Breeks All India Secondary School </p>
+                <p style="padding-left: 5%;">AVB Matriculation Higher Secondary School</p>
+                <p style="padding-left: 5%;">Kumaraguru College of Technology</p>
             </p>
     
             <p>
-                <b>My Interests:</b>
+                <h6><b>Hobbies:</h6></b>
                 <p>Listening to Music</p>
                 <p>Reading books</p>
                 <p>Travel</p>
             </p>
     
-            <p>
-                Hii Hello
-            </p>
+            
         </div>
         <div>
-            
+            <h7><b>Skills:</h7></b>
             <p>
-                <b>Skills:</b>
                 <p>Python</p>
                 <p>FullStack</p>
                 <p>Java</p>
@@ -105,24 +72,18 @@
             </p>
     
     
-            
+            <h8><b>Languages Known:</h8></b> 
             <div class="outerbox">
-                <div class="box para1">Contact</div>
-                <div class="box para2">Mail</div>
-                <div class="box para3">LinkedIn</div>
-                <div class="box para4">Instagram</div>
-                
-            </div>
-                
-            <p id="output"></p>
+                <div class="box"class="para1" style="color: black;">Tamil</div>
+                <div class="box" class="para2" style="color: black;">English</div>
+                <div class="box" class="para3" style="color: black;">Hindi</div>
+                <div class="box" class="para4" style="color: black;">French</div>
+            </div>   
         
-        <button class="button" onClick="printMessage1()">p1</button>
-        <button class="button" onClick="printMessage2()">p2</button>
-        <button class="button" onClick="printMessage3()">p3</button>
-        <button class="button" onClick="printMessage4()">p4</button>
+            
         
     
-         </div>
+         
         
     
     

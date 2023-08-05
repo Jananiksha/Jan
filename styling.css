@@ -1,62 +1,79 @@
-div{
-    background-color:black;
-  }
-  
-  .outerbox{
-    min-height:50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    text-transform:uppercase;
-    text-indent: 5px;
-    color:azure;
-  
-  
-  
-  }
-  .box{
-    width: 200px;
-    height: 50px;
-    background-color:brown;
-    border: 2px solid black;
-    color:black;
-  }
-  
-  .container {
-    display: flex;
-  }
-  
-  .para1{
-    background-color:azure;
-    flex:0.5
-  }
-  .para2{
-    background-color:azure;
-    flex:0.5
-  }
-  .para3{
-    background-color:azure;
-    flex:0.5
-  
-  }
-  .para4{
-    background-color:azure;
-    flex:0.5
-  
-  }
-  h1{
-    color:azure
-  }
-  h2{
-    color:azure
-  }
-  h3{
-    color:azure
-  }
-  p{
-    color: azure;
-  }
-  
-  
+body{
+  background-image: url("./deer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+.outerbox{
+  min-height:50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  text-transform:uppercase;
+  text-indent: 5px;
+  color: azure;
+
+}
+.box{
+  width: 200px;
+  height: 50px;
+  background-color:burlywood;
+  border: 2px solid black;
+  color: azure;
+}
+
+.container {
+  display: flex;
+}
+
+.para1{
+  background-color:azure;
+  flex:0.5
+}
+.para2{
+  background-color:azure;
+  flex:0.5
+}
+.para3{
+  background-color:azure;
+  flex:0.5
+
+}
+.para4{
+  background-color:azure;
+  flex:0.5
+
+}
+
+p{
+  padding-left: 5%;
+}
+
+h3{
+  font-size: xx-large;
+}
+h4{
+  font-size:large;
+}
+h5,h6,h7{
+  font-size: larger;
+}
+h2{
+  font-size:medium;
+}
+h8{
+  font-size: x-large;
+}
+
+h1,h3,h4,h5,h6,h7,h8,p{
+  color: azure;
+}
+
+
+
